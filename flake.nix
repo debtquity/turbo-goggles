@@ -45,7 +45,7 @@
           src = ./.;
         };
 
-        packages."dns" = pkgs.callPackage ./pkg.nix;
+        packages.${system}."dns" = ./package.nix;
 
         devShell =
           with pkgs;
