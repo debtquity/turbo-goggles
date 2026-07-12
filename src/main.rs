@@ -1,6 +1,7 @@
 use tokio::net;
 use std::io;
 
+// comment
 #[tokio::main]
 async fn main() -> io::Result<()> {
     for addr in net::lookup_host("localhost:3000").await? {
