@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "build simple rust program";
 
   inputs = {
     nixpkgs = {
