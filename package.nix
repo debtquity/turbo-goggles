@@ -4,6 +4,7 @@
   fetchFromGitHub,
 }:
 rustPlatform.buildRustPackage (finalAttrs: {
+  # ...
   pname = "dns";
   version = "0.0.1";
   src = fetchFromGitHub {
